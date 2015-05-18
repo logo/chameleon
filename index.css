@@ -1,0 +1,21 @@
+
+/**
+ * Chameleon logo.
+ */
+
+.logo[data-logo="Chameleon"] {
+  width: 0;
+}
+
+.logo[data-logo="Chameleon"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Chameleon"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Chameleon"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
